@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "/home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Complex.lisp"
   "/home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp"
   "/home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp"
+  "/home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/WordCount.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

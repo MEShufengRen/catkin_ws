@@ -56,6 +56,7 @@ include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.d
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/Complex.h
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/Num.h
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/WordCount.h
 
 
 /home/rsf/catkin_ws/devel/include/beginner_tutorials/Complex.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -77,10 +78,18 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/rs
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from beginner_tutorials/AddTwoInts.srv"
 	cd /home/rsf/catkin_ws/src/beginner_tutorials && /home/rsf/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/include/beginner_tutorials -e /opt/ros/kinetic/share/gencpp/cmake/..
 
+/home/rsf/catkin_ws/devel/include/beginner_tutorials/WordCount.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/rsf/catkin_ws/devel/include/beginner_tutorials/WordCount.h: /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv
+/home/rsf/catkin_ws/devel/include/beginner_tutorials/WordCount.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/rsf/catkin_ws/devel/include/beginner_tutorials/WordCount.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from beginner_tutorials/WordCount.srv"
+	cd /home/rsf/catkin_ws/src/beginner_tutorials && /home/rsf/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/include/beginner_tutorials -e /opt/ros/kinetic/share/gencpp/cmake/..
+
 beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp
 beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/Complex.h
 beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/Num.h
 beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h
+beginner_tutorials_generate_messages_cpp: /home/rsf/catkin_ws/devel/include/beginner_tutorials/WordCount.h
 beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_cpp

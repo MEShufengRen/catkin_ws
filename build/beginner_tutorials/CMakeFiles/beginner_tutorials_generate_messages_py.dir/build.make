@@ -56,6 +56,7 @@ include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.di
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Complex.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_WordCount.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
 
@@ -75,24 +76,32 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rsf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV beginner_tutorials/AddTwoInts"
 	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv
 
+/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_WordCount.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_WordCount.py: /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV beginner_tutorials/WordCount"
+	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv
+
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Complex.py
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for beginner_tutorials"
+/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_WordCount.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python msg __init__.py for beginner_tutorials"
 	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg --initpy
 
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Complex.py
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
 /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for beginner_tutorials"
+/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_WordCount.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python srv __init__.py for beginner_tutorials"
 	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv --initpy
 
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py
 beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Complex.py
 beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
 beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_WordCount.py
 beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
 beginner_tutorials_generate_messages_py: /home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build.make

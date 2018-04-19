@@ -56,6 +56,7 @@ include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Complex.lisp
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/WordCount.lisp
 
 
 /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Complex.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
@@ -73,10 +74,16 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/r
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from beginner_tutorials/AddTwoInts.srv"
 	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv
 
+/home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/WordCount.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/WordCount.lisp: /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from beginner_tutorials/WordCount.srv"
+	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv
+
 beginner_tutorials_generate_messages_lisp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp
 beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Complex.lisp
 beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp
 beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp
+beginner_tutorials_generate_messages_lisp: /home/rsf/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/WordCount.lisp
 beginner_tutorials_generate_messages_lisp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_lisp

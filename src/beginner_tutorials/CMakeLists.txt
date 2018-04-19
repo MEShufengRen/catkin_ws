@@ -5,7 +5,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs message_generation
 
 ##Generate messages in the 'msg' folder
 add_message_files(FILES Num.msg Complex.msg)
-add_service_files(FILES AddTwoInts.srv)
+add_service_files(FILES WordCount.srv AddTwoInts.srv)
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(DEPENDENCIES std_msgs)

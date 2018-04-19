@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "/home/rsf/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/Complex.js"
   "/home/rsf/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/Num.js"
   "/home/rsf/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/AddTwoInts.js"
+  "/home/rsf/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/WordCount.js"
 )
 
 # Per-language clean rules from dependency scanning.

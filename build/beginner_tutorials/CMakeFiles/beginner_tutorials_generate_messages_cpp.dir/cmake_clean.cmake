@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "/home/rsf/catkin_ws/devel/include/beginner_tutorials/Complex.h"
   "/home/rsf/catkin_ws/devel/include/beginner_tutorials/Num.h"
   "/home/rsf/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h"
+  "/home/rsf/catkin_ws/devel/include/beginner_tutorials/WordCount.h"
 )
 
 # Per-language clean rules from dependency scanning.

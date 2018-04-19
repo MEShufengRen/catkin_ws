@@ -56,6 +56,7 @@ include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.d
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/Complex.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/Num.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/WordCount.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l
 
 
@@ -74,14 +75,20 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/rs
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from beginner_tutorials/AddTwoInts.srv"
 	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv
 
+/home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/WordCount.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/WordCount.l: /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from beginner_tutorials/WordCount.srv"
+	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rsf/catkin_ws/src/beginner_tutorials/srv/WordCount.srv -Ibeginner_tutorials:/home/rsf/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv
+
 /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for beginner_tutorials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rsf/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp manifest code for beginner_tutorials"
 	cd /home/rsf/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials beginner_tutorials std_msgs
 
 beginner_tutorials_generate_messages_eus: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus
 beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/Complex.l
 beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/Num.l
 beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l
+beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/WordCount.l
 beginner_tutorials_generate_messages_eus: /home/rsf/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l
 beginner_tutorials_generate_messages_eus: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/build.make
 

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Complex.py"
   "/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py"
   "/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py"
+  "/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_WordCount.py"
   "/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py"
   "/home/rsf/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py"
 )
