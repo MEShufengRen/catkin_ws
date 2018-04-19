@@ -1,0 +1,8 @@
+prefix=/home/rsf/catkin_ws/install
+
+Name: ros_service_examples
+Description: Description of ros_service_examples
+Version: 0.7.3
+Cflags: -I/home/rsf/catkin_ws/install/include
+Libs: -L/home/rsf/catkin_ws/install/lib 
+Requires: roscpp roslib message_runtime
